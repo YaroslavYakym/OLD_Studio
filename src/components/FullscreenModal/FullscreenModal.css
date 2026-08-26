@@ -1,0 +1,195 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(40, 30, 25, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding:  40px 20px;
+}
+
+.modalContent {
+  width: 100%;
+  max-width: 760px;
+  max-height: 86vh;
+  background: var(--component-bg);
+  color: var(--component-color);
+  border-radius: 24px;
+  padding: 48px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.modalClose {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  color: var(--component-color);
+  border: 2px solid var(--component-color);
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 14px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.modalClose:hover {
+  background: var(--component-color);
+  color: var(--component-bg);
+}
+
+.modalTitle {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.25;
+  color: var(--component-color);
+  padding-right: 40px;
+  margin-bottom: 32px;
+}
+
+.modalDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.modalDetailBlock {
+  padding-bottom: 24px;
+  border-bottom: 1px solid color-mix(in srgb, var(--component-color) 18%, transparent);
+}
+
+.modalDetailBlock:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modalDetailHeading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.4;
+  color: var(--component-color);
+  margin-bottom: 10px;
+}
+
+.modalDetailText {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.95rem, 1.4vw, 1.02rem);
+  line-height: 1.7;
+  color: var(--component-color);
+  opacity: 0.85;
+}
+
+.modalDrawingsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.modalDrawingsList li {
+  position: relative;
+  padding-left: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--component-color);
+  opacity: 0.85;
+}
+
+.modalDrawingsList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--component-soft-color);
+}
+
+.modalPriceBlock {
+  margin-top: 32px;
+  padding: 24px 28px;
+  border-radius: 16px;
+  background: var(--bg-dark);
+}
+
+.modalPriceTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--component-soft-color);
+  margin-bottom: 14px;
+}
+
+.modalPriceList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modalPriceList li {
+  position: relative;
+  padding-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.95rem, 1.4vw, 1.02rem);
+  line-height: 1.5;
+  color: var(--component-color);
+}
+
+.modalPriceList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--component-color);
+}
+
+@media (max-width: 768px) {
+  .modalOverlay {
+    padding: 20px 12px;
+  }
+
+  .modalContent {
+    padding: 32px 24px;
+    max-height: 90vh;
+    border-radius: 18px;
+  }
+
+  .modalTitle {
+    padding-right: 32px;
+    margin-bottom: 24px;
+  }
+
+  .modalDrawingsList {
+    grid-template-columns: 1fr;
+  }
+
+  .modalPriceBlock {
+    padding: 18px 20px;
+  }
+}

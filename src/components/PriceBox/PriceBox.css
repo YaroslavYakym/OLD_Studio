@@ -1,0 +1,135 @@
+.CasesBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: var(--component-bg);
+  color: var(--text-color);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.CasesBoxes:hover {
+  box-shadow: var(--component-shadow);
+}
+
+.CasesBoxesTxtBlock {
+  display: flex;
+  justify-content: space-between;
+  color: var(--component-color);
+  flex-direction: column;
+  padding: 28px 30px;
+  flex: 1;
+}
+
+.CaseHeadTxt {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: clamp(20px, 2.4vw, 26px);
+}
+
+.CaseBody {
+  font-size: clamp(14px, 1.6vw, 16px);
+  line-height: 1.4;
+  margin: 16px 0 22px 0;
+}
+
+.CaseSubtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--component-soft-color);
+  margin-bottom: 12px;
+}
+
+.CaseIncludesList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.CaseIncludesList li {
+  position: relative;
+  padding-left: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.92rem, 1.3vw, 1rem);
+  line-height: 1.55;
+  color: var(--component-color);
+  opacity: 0.9;
+}
+
+.CaseIncludesList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--component-soft-color);
+}
+
+.CaseStudyButton {
+  display: inline-flex;
+  align-items: center;
+  width: 160px;
+  gap: 10px;
+  padding: 6px 18px;
+  border: 2px solid var(--component-color);
+  background: transparent;
+  color: var(--component-color);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  margin: 10px 0px 0px 0px;
+}
+
+.CaseStudyButton:hover {
+  background: var(--component-color);
+  color: var(--component-bg);
+}
+
+.CaseBtnTxt {
+  margin: 0px;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .CasesBoxes {
+    border-radius: 16px;
+    max-width: 500px;
+  }
+
+  .CasesBoxesTxtBlock {
+    padding: 22px;
+  }
+
+  .CaseStudyButton {
+    padding: 10px 16px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .CasesBoxesTxtBlock {
+    padding: 18px;
+  }
+
+  .CaseStudyButton {
+    padding: 8px 14px;
+    border-radius: 8px;
+  }
+}

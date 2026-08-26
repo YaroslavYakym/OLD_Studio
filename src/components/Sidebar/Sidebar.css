@@ -1,0 +1,150 @@
+.sidebar {
+  z-index: 999999999;
+  background: var(--bg-color);
+  color: var(--text-color);
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 28px 32px;
+  box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.15);
+  transition: right 0.35s ease;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sidebar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.sidebar-logo svg {
+  height: 40px;
+  width: auto;
+}
+
+.btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.18s ease, background 0.2s ease;
+}
+
+.btn-close:hover {
+  transform: scale(1.08);
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.dark .btn-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar .nav-link {
+  color: var(--text-color);
+  padding: 14px 8px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--component-bg);
+  display: block;
+  justify-content: flex-start;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.sidebar .nav-link:hover {
+  color: var(--component-color);
+  padding-left: 14px;
+  background: transparent;
+}
+
+.consultation-btn-sidebar {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.free-consultation-btn-sidebar {
+  display: flex;
+  background-color: var(--component-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 14px;
+  width: 100%;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.18s ease;
+}
+
+.free-consultation-btn-sidebar:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 1025px) {
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .main-navigation {
+    display: none;
+  }
+  .LesTalkRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .right-peace {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    max-width: 100%;
+    padding: 20px 20px 24px;
+  }
+
+  .sidebar .nav-link {
+    font-size: 19px;
+    padding: 12px 6px;
+  }
+}

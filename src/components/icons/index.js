@@ -1,0 +1,16 @@
+export { default as Facebook } from "./Facebook";
+export { default as Gmail } from "./Gmail";
+export { default as Instagram } from "./Instagram";
+export { default as Moon } from "./Moon";
+export { default as MouseOne } from "./MouseOne";
+export { default as OlashynLogoBlack } from "./OlashynLogoBlack";
+export { default as OlashynLogoGreen } from "./OlashynLogoGreen";
+export { default as OlashynLogoWhite } from "./OlashynLogoWhite";
+export { default as Phone } from "./Phone";
+export { default as PhoneOne } from "./PhoneOne";
+export { default as Sun } from "./Sun";
+export { default as Telegram } from "./Telegram";
+export { default as Tiktok } from "./Tiktok";
+export { default as LanguageIcon } from "./LanguageIcon";
+export { default as Mouse } from "./Mouse";
+export { default as MenuIcon } from './MenuIcon'
