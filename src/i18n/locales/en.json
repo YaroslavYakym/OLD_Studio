@@ -1,0 +1,385 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "close": "Close"
+  },
+  "nav": {
+    "services": "Services",
+    "company": "Company",
+    "contacts": "Contacts",
+    "portfolio": "Portfolio",
+    "price": "Pricing",
+    "faq": "FAQ"
+  },
+  "buttons": {
+    "consult": "Consultation"
+  },
+  "footer": {
+    "txt": "We don't just create design, we create comfort in your garden.",
+    "services": "Services",
+    "company": "Company",
+    "contacts": "Contacts",
+    "portfolio": "Portfolio",
+    "price": "Pricing",
+    "faq": "FAQ",
+    "privacy-policy": "Privacy policy",
+    "cookies": "Cookies",
+    "rights": "© 2025 OLD Studio. All rights reserved"
+  },
+  "preview": {
+    "txt": "We don't just create design, we create comfort in your garden.",
+    "scroll": "Development of a landscape project"
+  },
+  "services": {
+    "items": [
+      {
+        "title": "1. Site visit and analysis",
+        "text": "The initial stage, at which the basis of the future project is formed. I go to the site, assess the relief, existing plantings, lighting, engineering conditions and architecture of the building. This allows us to understand the potential of the space and determine the optimal direction of the future design."
+      },
+      {
+        "title": "2. Concept formation",
+        "text": "At this stage, a general idea of ​​the space is created. The style, functional zoning, scenarios for using the site and the mood of the future garden are determined. The concept is the foundation that combines aesthetics and practicality."
+      },
+      {
+        "title": "3. Planning solution (2D)",
+        "text": "A detailed plan of the site is developed with all the main elements: paths, terraces, recreation areas, landscaping and other objects. It is at this stage that the structure of the space is agreed upon before moving on to visualization."
+      },
+      {
+        "title": "4. Project visualization",
+        "text": "Realistic images of the future space are created, allowing you to see what the site will look like before work begins. This makes it possible to make adjustments and achieve the ideal result even at the design stage."
+      },
+      {
+        "title": "5. Working documentation",
+        "text": "After approval of the visual part, a full set of drawings is developed for the implementation of the project. It includes all the necessary technical solutions for construction, landscaping and engineering systems."
+      },
+      {
+        "title": "6. Project Album",
+        "text": "The final stage is the formation of a complete project album. You receive a structured document that contains: • visualizations • drawings • all necessary materials for implementation This is a clear instruction that allows you to implement the project without losing quality and ideas."
+      }
+    ]
+  },
+  "description": {
+    "title": "Our Company",
+    "items": [
+      "Our focus is not on quantity, but on quality.",
+      "Each project has its own character and logic.",
+      "Thinking one step ahead is our style of work.",
+      "We do what seems complicated to others.",
+      "Every element has a meaning and a place.",
+      "We combine aesthetics and functionality.",
+      "We make the complex understandable and easy."
+    ],
+    "secText": "The studio's founder personally oversees every project — from the first site visit to the final album."
+  },
+  "benefit": {
+    "title": "Our Benefits",
+    "text": "Our company consists only of professionals and fresh ideas, because this is the only way to achieve the best result.",
+    "secText": "We believe a beautiful yard should be as functional as it is beautiful — so we think through every detail."
+  },
+  "priceBox": {
+    "label": "Pricing",
+    "title": "About Price?",
+    "headTitle": "Here we want to tell you how much is our work",
+    "secTitle": "",
+    "desc": ""
+  },
+  "caseBox": {
+    "label": "Cases",
+    "title": "Our cases",
+    "headTitle": "Here you can see the results of our work",
+    "secTitle": "Daily and nighty visualizations",
+    "desc": ""
+  },
+  "price": {
+    "items": [
+      {
+        "id": "idea",
+        "title": "Space Concept",
+        "subtitle": "What's included:",
+        "includes": [
+          "Site visit for assessment and familiarization",
+          "2D sketch plan of the site, accounting for paths, plants, key elements of the space, zone placement and the site's ergonomics"
+        ],
+        "buttonText": "Learn more",
+        "details": [
+          {
+            "heading": "Site visit for assessment and familiarization",
+            "text": "This is the first and very important step. On site, we assess the features of the plot: shape, terrain, sunlight exposure, and any existing plants or structures. During the visit we take notes, mark key points, and identify the best solutions for the functionality and aesthetics of the space."
+          },
+          {
+            "heading": "2D sketch plan of the site",
+            "text": "After the site visit, a complete 2D sketch plan is created. It shows the layout of paths, green zones with plants, key elements of the space, and areas for rest or activities. The plan accounts for the site's ergonomics — how convenient it is to move through and use the space."
+          }
+        ],
+        "technicalDrawings": [],
+        "priceTitle": "Price:",
+        "priceItems": [
+          "Up to 10 sotok: $150",
+          "Each additional sotka above 10: $20",
+          "Sites over 50 sotok: price negotiated individually"
+        ]
+      },
+      {
+        "id": "visualization",
+        "title": "Space Visualization",
+        "subtitle": "What's included:",
+        "includes": [
+          "Site visit for assessment and familiarization",
+          "2D sketch plan: paths, green zones, key elements of the space, site ergonomics",
+          "Detailed 3D design development: photorealistic 3D visualizations of the entire site"
+        ],
+        "buttonText": "Learn more",
+        "details": [
+          {
+            "heading": "Site visit for assessment and familiarization",
+            "text": "The site visit lets us assess its features, terrain, existing elements, and spatial relationships. This is essential for accurately translating ideas into the 2D sketch and the later 3D visualizations."
+          },
+          {
+            "heading": "2D sketch plan of the site",
+            "text": "A sketch plan is created: paths, green zones with plants, key elements of the space. The site's ergonomics are indicated so the client has a clear understanding of the structure of the space and the main relationships between its elements."
+          },
+          {
+            "heading": "Detailed 3D design development",
+            "text": "Photorealistic 3D visualizations of the entire site, with day and night variants. Work is done in three programs — SketchUp, 3D Max, and Lumion — for maximum detail, material accuracy, and lighting precision. This lets the client get a full picture of the future space and check all key elements and how they relate to each other."
+          }
+        ],
+        "technicalDrawings": [],
+        "priceTitle": "Price:",
+        "priceItems": [
+          "Base site up to 10 sotok: $500",
+          "Each additional sotka: $75",
+          "Accounting for terrain and site features: +10–30%",
+          "Sites over 50 sotok: price negotiated individually"
+        ]
+      },
+      {
+        "id": "architectural-base",
+        "title": "Architectural Base",
+        "subtitle": "What's included:",
+        "includes": [
+          "Site visit for assessment and familiarization",
+          "2D sketch plan of the site, accounting for paths, plants, key elements of the space, zone placement and the site's ergonomics",
+          "Simplified technical drawings"
+        ],
+        "buttonText": "Learn more",
+        "details": [
+          {
+            "heading": "Site visit for assessment and familiarization",
+            "text": "During the visit I assess the site, getting familiar with its terrain, existing plants, structures, and key elements. This lets me understand the possibilities and limitations of the space, form an initial vision of the concept, and prepare an accurate foundation for further work on the project."
+          },
+          {
+            "heading": "2D sketch plan: paths, green zones, key elements of the space, site ergonomics",
+            "text": "A detailed 2D sketch plan of the site is created. It clearly marks paths, green zones with plants, the placement of key elements of the space, and the site's ergonomics. This sketch lets the client visually see what the site will look like and assess the placement of all important components of the space before any further work begins."
+          },
+          {
+            "heading": "Simplified technical drawings",
+            "text": "The package includes simplified technical drawings that make it possible to understand the basic structure and functionality of the space:"
+          }
+        ],
+        "technicalDrawings": [
+          "General plan",
+          "Site organization plan",
+          "Vertical planning",
+          "Outdoor lighting plan",
+          "Electrical networks plan",
+          "Combined utility networks plan",
+          "Hard surfaces plan, paving layout",
+          "Dendrological plan",
+          "Plant assortment list",
+          "Planting plan"
+        ],
+        "priceTitle": "Price:",
+        "priceItems": [
+          "Base site up to 10 sotok: $650",
+          "Each additional sotka: $98",
+          "Accounting for terrain and site features: +10–30%",
+          "Sites over 50 sotok: price negotiated individually"
+        ]
+      },
+      {
+        "id": "project-plus",
+        "title": "Project Plus",
+        "subtitle": "Includes:",
+        "includes": [
+          "Site visit for assessment and familiarization",
+          "2D sketch plan: paths, green zones, key elements of the space, site ergonomics",
+          "Detailed 3D design development",
+          "Simplified technical drawings",
+          "Presentation architectural album"
+        ],
+        "buttonText": "Learn more",
+        "details": [
+          {
+            "heading": "Site visit for assessment and familiarization",
+            "text": "During the visit we assess the site, getting familiar with its terrain, existing plants, structures, and key elements. This lets us understand the possibilities and limitations of the space, form an initial vision of the concept, and prepare an accurate foundation for further work on the project."
+          },
+          {
+            "heading": "2D sketch plan: paths, green zones, key elements of the space, site ergonomics",
+            "text": "We create a detailed 2D sketch plan of the site. It clearly marks paths, green zones with plants, the placement of key elements of the space, and the site's ergonomics. This sketch lets the client visually see what the site will look like and assess the placement of all important components of the space before any further work begins."
+          },
+          {
+            "heading": "Detailed 3D design development",
+            "text": "Photorealistic 3D visualizations of the entire site, including day and night variants. For maximum precision we use three programs: SketchUp, 3D Max, and Lumion. This lets the client get a full picture of the future space, assess all key elements and how they relate to each other, and check the lighting, materials, and volume of the space before implementation begins."
+          },
+          {
+            "heading": "Simplified technical drawings",
+            "text": "The package includes simplified technical drawings that make it possible to understand the basic structure and functionality of the space:"
+          },
+          {
+            "heading": "Presentation architectural album",
+            "text": "An A3-format album (for standard sites) that includes absolutely everything: the layout and structure of the project, the existing state of the site, the conceptual solution, all 3D visualizations, and all technical drawings."
+          }
+        ],
+        "technicalDrawings": [
+          "General plan",
+          "Site organization plan",
+          "Vertical planning",
+          "Outdoor lighting plan",
+          "Electrical networks plan",
+          "Hard surfaces plan, paving layout",
+          "Dendrological plan",
+          "Plant assortment list",
+          "Planting plan"
+        ],
+        "priceTitle": "Price:",
+        "priceItems": [
+          "Base site up to 10 sotok: $880",
+          "Each additional sotka: $132",
+          "Accounting for terrain and site features: +10–30%",
+          "For sites over 50 sotok, price negotiated individually"
+        ]
+      },
+      {
+        "id": "premium",
+        "title": "Premium",
+        "subtitle": "What's included:",
+        "includes": [
+          "Site visit for assessment and familiarization",
+          "2D sketch plan of the site",
+          "3D visualizations of the entire site in 4K",
+          "Video walkthrough of the site",
+          "Detailed technical drawings",
+          "Presentation architectural album"
+        ],
+        "buttonText": "Learn more",
+        "details": [
+          {
+            "heading": "Site visit for assessment and familiarization",
+            "text": "We visit your site, survey the terrain, assess the features of the relief, the presence of green zones, key elements, and the structure of the space. This lets us account for every nuance before design work begins."
+          },
+          {
+            "heading": "2D sketch plan of the site",
+            "text": "A 2D sketch plan is created showing paths, green zones, key elements of the space, and the site's ergonomics. The plan gives a complete picture of the structure of the space and the relationships between zones."
+          },
+          {
+            "heading": "Detailed 3D visualization of the entire site",
+            "text": "Photorealistic day and night visualizations for a complete sense of the atmosphere of the space. A video of the site that shows the space in motion. Work is done in three programs — SketchUp, 3D Max, Lumion — for maximum detail, material accuracy, and lighting precision. This lets the client get a full picture of the future space before implementation begins, and check all key elements and how they relate to each other."
+          },
+          {
+            "heading": "Detailed technical drawings",
+            "text": "The package includes detailed technical drawings covering every aspect of the project's implementation:"
+          },
+          {
+            "heading": "Presentation architectural album",
+            "text": "An A3-format album (for standard sites) that includes absolutely everything: the layout and structure of the project, the existing state of the site, the conceptual solution, all 3D visualizations, and all technical drawings."
+          }
+        ],
+        "technicalDrawings": [
+          "General plan",
+          "Site organization plan",
+          "Vertical planning",
+          "Drainage system plan",
+          "Drainage network plan",
+          "Outdoor lighting plan",
+          "Electrical networks plan",
+          "Lighting grouping scheme",
+          "Automatic irrigation system plan",
+          "Irrigation system detailing",
+          "Combined utility networks plan",
+          "Hard surfaces plan",
+          "Paving layout plan",
+          "Dendrological plan",
+          "Plant assortment list",
+          "Planting plan",
+          "Small architectural forms: gazebo scheme, fire pit zone scheme, carport scheme, pool scheme, pergola scheme, etc."
+        ],
+        "priceTitle": "Price:",
+        "priceItems": [
+          "Base site up to 10 sotok: $1100",
+          "Each additional sotka: $145",
+          "Accounting for terrain and site features: +10–30%",
+          "For sites over 50 sotok, price negotiated individually"
+        ]
+      }
+    ]
+  },
+  "album": {
+    "items": [
+      {
+        "id": "day",
+        "title": "Daily Vision",
+        "buttonText": "Learn more",
+        "album": "day"
+      },
+      {
+        "id": "night",
+        "title": "Nighty Vision",
+        "subtitle": "",
+        "buttonText": "Learn more",
+        "album": "night"
+        
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Answers to what clients ask us most often",
+    "items": [
+      {
+        "id": "packages",
+        "question": "What is the difference between the \"Architectural Base\", \"Project Plus\" and \"Premium\" packages?",
+        "answer": "\"Architectural Base\" includes only technical drawings without visualization — a technical foundation without visuals. \"Project Plus\" is a full project with 2D planning, simplified technical drawings, visualizations and a materials album. \"Premium\" is the most detailed package: everything from \"Project Plus\" plus full detailed technical drawings and a rendered video of the space."
+      },
+      {
+        "id": "timeline",
+        "question": "How long does it take to create a project?",
+        "answer": "It depends on the scope of work and the size of the site. Approximate timeframes: space concept — 7–14 days, visualization — 14–21 days, architectural base — 14–21 days, \"Project Plus\" — 21–42 days, \"Premium\" — 30–60 days."
+      },
+      {
+        "id": "stages",
+        "question": "What stages does a project go through, from concept to the finished album?",
+        "answer": "1. Discussing ideas and concept. 2. Developing the 2D concept with room for revisions. 3. 3D visualization — day and night renders. 4. Developing technical drawings. 5. Delivering the album: first a digital PDF, then the printed album."
+      },
+      {
+        "id": "consultation",
+        "question": "Does it include a consultation on choosing plants and materials?",
+        "answer": "Yes, it's part of the concept development process. At this stage we take all of the client's preferences into account and discuss stylistic and functional decisions, so every element fits the project harmoniously."
+      },
+      {
+        "id": "geodesy",
+        "question": "What needs to be prepared before the work begins?",
+        "answer": "It's essential to commission a professional geodetic survey of the site. The accuracy of these measurements determines all further planning, the concept and the technical drawings."
+      },
+      {
+        "id": "corrections",
+        "question": "Are revisions included in the project price?",
+        "answer": "All revisions during the concept stage are included in the price. Once the concept is approved, revisions to the visualizations are possible once — the client submits all requests together. Each further round of revisions costs $100."
+      },
+      {
+        "id": "support",
+        "question": "Do you support the implementation of the project?",
+        "answer": "Yes. We don't carry out the construction work ourselves, but we monitor key milestones, check that everything matches the project decisions, and provide consultations if you have questions during implementation."
+      },
+      {
+        "id": "payment",
+        "question": "Can the payment be split into stages?",
+        "answer": "Yes: 50% before the work begins, during the site visit, and 50% upon delivery of the project. For large sites (50 sotok or more), payment for the \"Project Plus\" and \"Premium\" packages can be split into four stages of 25% each."
+      },
+      {
+        "id": "format",
+        "question": "What format does the client receive after the project is finished?",
+        "answer": "For the \"Space Concept\", \"Space Visualization\" and \"Architectural Base\" packages — a digital PDF file. For the \"Project Plus\" and \"Premium\" packages — a printed architectural album with all drawings, plans and visualizations."
+      }
+    ]
+  }
+}

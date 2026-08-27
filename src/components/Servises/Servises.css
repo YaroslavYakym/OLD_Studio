@@ -1,0 +1,30 @@
+.service-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 10px;
+}
+
+.service-row.reverse {
+  direction: rtl;
+}
+
+.service-row.reverse * {
+  direction: ltr;
+}
+
+.servises-heaad{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.servise-scroll h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  line-height: 1.3;
+  color: var(--text-color);
+}
