@@ -115,7 +115,7 @@ function Footer() {
             <a href="https://www.instagram.com/o.l.d._studio?utm_source=qr&igsh=N3c3YXB5aWJlNnc1&igsi=N3c3YXB5aWJlNnc1" aria-label="Instagram">
               <Instagram />
             </a>
-            <a href="@Olashyn_Lanscape_Design" aria-label="Telegram">
+            <a href="https://t.me/Olashyn_Lanscape_Design" aria-label="Telegram">
               <Telegram />
             </a>
             <a href="https://www.tiktok.com/@olashyn_landscape_design?_r=1&_t=ZS-98xupBSvM1Y" aria-label="TikTok">
