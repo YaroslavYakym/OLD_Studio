@@ -7,7 +7,7 @@ import { ServisesComponents } from "../ServisesComponents";
 import { ServisesComponentsReverse } from "../ServisesComponentsReverse";
 
 import familiar from "../../icon/familiar.png";
-import concept from "../../icon/concept.png";
+import concept from "../../icon/concept.PNG";
 import virtual from "../../icon/virtual.jpg";
 import plan from "../../icon/plan.PNG";
 import documantation from "../../icon/documantation.jpg"
